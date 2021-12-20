@@ -20,7 +20,7 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we I in touch with you if I need more info?
+      description: How can I get in touch with you if I need more info?
       placeholder: ex. email@example.com, discord
     validations:
       required: false

@@ -39,6 +39,17 @@ body:
     id: bsversion
     attributes:
       label: What Beat Saber Version are you seeing the problem on?
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Steam
+        - Oculus
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:

@@ -30,12 +30,12 @@ body:
     description: A concise description of what you're experiencing.
   validations:
     required: false
-- type: textarea
-  attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
-  validations:
-    required: false
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: false
   - type: textarea
   attributes:
     label: Steps To Reproduce
